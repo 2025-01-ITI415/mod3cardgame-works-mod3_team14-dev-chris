@@ -21,8 +21,6 @@ public class Prospector : MonoBehaviour
     private Dictionary<int, int> highestActiveRowByColumn = new Dictionary<int, int>();
     // Number of columns in the layout
     private int numColumns = 7;
-    // Track row numbers for each card
-    private Dictionary<CardProspector, int> cardToRowDict = new Dictionary<CardProspector, int>();
 
     void Start()
     {
@@ -97,7 +95,9 @@ public class Prospector : MonoBehaviour
             // Calculate the column index based on the x-position
             int column = (int)((slot.x + 9) / 3); // Maps -9 to 0, -6 to 1, etc.
 
-            int z = cp.row; // Use row as z-depth
+            // For z-ordering, use 5-row to invert the row numbers (assuming max row is 4)
+            // This makes Row4 have the smallest z value, which means it's on top visually
+            int z = cp.row;
             cp.SetLocalPos(new Vector3(
                 jsonLayout.multiplier.x * slot.x,
                 jsonLayout.multiplier.y * slot.y,
@@ -117,7 +117,8 @@ public class Prospector : MonoBehaviour
     {
         highestActiveRowByColumn.Clear();
 
-        // Find the highest (smallest number) row in each column
+        // In the new order, the highest row number (Row4) is actually the top row
+        // So we need to find the *highest* row number in each column
         foreach (CardProspector cp in mine)
         {
             // Skip cards not in the mine
@@ -127,7 +128,7 @@ public class Prospector : MonoBehaviour
             int column = (int)((cp.layoutSlot.x + 9) / 3);
 
             if (!highestActiveRowByColumn.ContainsKey(column) ||
-                cp.row < highestActiveRowByColumn[column])
+                cp.row > highestActiveRowByColumn[column])  // Changed < to > to find highest row number
             {
                 highestActiveRowByColumn[column] = cp.row;
             }
@@ -140,9 +141,9 @@ public class Prospector : MonoBehaviour
         // Calculate column from x position
         int column = (int)((cp.layoutSlot.x + 9) / 3);
 
-        // Card is playable if it's in the highest active row of its column
+        // Card is playable if it's in the highest row number of its column
         return highestActiveRowByColumn.ContainsKey(column) &&
-               cp.row == highestActiveRowByColumn[column];
+               cp.row == highestActiveRowByColumn[column];  // Now comparing with highest row number
     }
 
     void MoveToDiscard(CardProspector cp)
