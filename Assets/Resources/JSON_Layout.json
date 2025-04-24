@@ -9,135 +9,135 @@
       "x": -9,
       "y": -5,
       "faceUp": true,
-      "layer": "Column1",
+      "layer": "Row0",
       "hiddenByString": ""
     },
     {
       "id": 1,
-      "x": -9,
-      "y": -4,
+      "x": -6,
+      "y": -5,
       "faceUp": true,
-      "layer": "Column1",
+      "layer": "Row0",
       "hiddenByString": ""
     },
     {
       "id": 2,
-      "x": -9,
-      "y": -3,
+      "x": -3,
+      "y": -5,
       "faceUp": true,
-      "layer": "Column1",
+      "layer": "Row0",
       "hiddenByString": ""
     },
     {
       "id": 3,
-      "x": -9,
-      "y": -2,
+      "x": 0,
+      "y": -5,
       "faceUp": true,
-      "layer": "Column1",
+      "layer": "Row0",
       "hiddenByString": ""
     },
     {
       "id": 4,
-      "x": -9,
-      "y": -1,
+      "x": 3,
+      "y": -5,
       "faceUp": true,
-      "layer": "Column1",
+      "layer": "Row0",
       "hiddenByString": ""
     },
     {
       "id": 5,
-      "x": -6,
+      "x": 6,
       "y": -5,
       "faceUp": true,
-      "layer": "Column2",
+      "layer": "Row0",
       "hiddenByString": ""
     },
     {
       "id": 6,
-      "x": -6,
-      "y": -4,
+      "x": 9,
+      "y": -5,
       "faceUp": true,
-      "layer": "Column2",
+      "layer": "Row0",
       "hiddenByString": ""
     },
     {
       "id": 7,
-      "x": -6,
-      "y": -3,
+      "x": -9,
+      "y": -4,
       "faceUp": true,
-      "layer": "Column2",
+      "layer": "Row1",
       "hiddenByString": ""
     },
     {
       "id": 8,
       "x": -6,
-      "y": -2,
+      "y": -4,
       "faceUp": true,
-      "layer": "Column2",
+      "layer": "Row1",
       "hiddenByString": ""
     },
     {
       "id": 9,
-      "x": -6,
-      "y": -1,
+      "x": -3,
+      "y": -4,
       "faceUp": true,
-      "layer": "Column2",
+      "layer": "Row1",
       "hiddenByString": ""
     },
     {
       "id": 10,
-      "x": -3,
-      "y": -5,
+      "x": 0,
+      "y": -4,
       "faceUp": true,
-      "layer": "Column3",
+      "layer": "Row1",
       "hiddenByString": ""
     },
     {
       "id": 11,
-      "x": -3,
+      "x": 3,
       "y": -4,
       "faceUp": true,
-      "layer": "Column3",
+      "layer": "Row1",
       "hiddenByString": ""
     },
     {
       "id": 12,
-      "x": -3,
-      "y": -3,
+      "x": 6,
+      "y": -4,
       "faceUp": true,
-      "layer": "Column3",
+      "layer": "Row1",
       "hiddenByString": ""
     },
     {
       "id": 13,
-      "x": -3,
-      "y": -2,
+      "x": 9,
+      "y": -4,
       "faceUp": true,
-      "layer": "Column3",
+      "layer": "Row1",
       "hiddenByString": ""
     },
     {
       "id": 14,
-      "x": -3,
-      "y": -1,
+      "x": -9,
+      "y": -3,
       "faceUp": true,
-      "layer": "Column3",
+      "layer": "Row2",
       "hiddenByString": ""
     },
     {
       "id": 15,
-      "x": 0,
-      "y": -5,
+      "x": -6,
+      "y": -3,
       "faceUp": true,
-      "layer": "Column4",
+      "layer": "Row2",
       "hiddenByString": ""
     },
     {
       "id": 16,
-      "x": 0,
-      "y": -4,
+      "x": -3,
+      "y": -3,
       "faceUp": true,
-      "layer": "Column4",
+      "layer": "Row2",
       "hiddenByString": ""
     },
     {
@@ -145,135 +145,135 @@
       "x": 0,
       "y": -3,
       "faceUp": true,
-      "layer": "Column4",
+      "layer": "Row2",
       "hiddenByString": ""
     },
     {
       "id": 18,
-      "x": 0,
-      "y": -2,
+      "x": 3,
+      "y": -3,
       "faceUp": true,
-      "layer": "Column4",
+      "layer": "Row2",
       "hiddenByString": ""
     },
     {
       "id": 19,
-      "x": 0,
-      "y": -1,
+      "x": 6,
+      "y": -3,
       "faceUp": true,
-      "layer": "Column4",
+      "layer": "Row2",
       "hiddenByString": ""
     },
     {
       "id": 20,
-      "x": 3,
-      "y": -5,
+      "x": 9,
+      "y": -3,
       "faceUp": true,
-      "layer": "Column5",
+      "layer": "Row2",
       "hiddenByString": ""
     },
     {
       "id": 21,
-      "x": 3,
-      "y": -4,
+      "x": -9,
+      "y": -2,
       "faceUp": true,
-      "layer": "Column5",
+      "layer": "Row3",
       "hiddenByString": ""
     },
     {
       "id": 22,
-      "x": 3,
-      "y": -3,
+      "x": -6,
+      "y": -2,
       "faceUp": true,
-      "layer": "Column5",
+      "layer": "Row3",
       "hiddenByString": ""
     },
     {
       "id": 23,
-      "x": 3,
+      "x": -3,
       "y": -2,
       "faceUp": true,
-      "layer": "Column5",
+      "layer": "Row3",
       "hiddenByString": ""
     },
     {
       "id": 24,
-      "x": 3,
-      "y": -1,
+      "x": 0,
+      "y": -2,
       "faceUp": true,
-      "layer": "Column5",
+      "layer": "Row3",
       "hiddenByString": ""
     },
     {
       "id": 25,
-      "x": 6,
-      "y": -5,
+      "x": 3,
+      "y": -2,
       "faceUp": true,
-      "layer": "Column6",
+      "layer": "Row3",
       "hiddenByString": ""
     },
     {
       "id": 26,
       "x": 6,
-      "y": -4,
+      "y": -2,
       "faceUp": true,
-      "layer": "Column6",
+      "layer": "Row3",
       "hiddenByString": ""
     },
     {
       "id": 27,
-      "x": 6,
-      "y": -3,
+      "x": 9,
+      "y": -2,
       "faceUp": true,
-      "layer": "Column6",
+      "layer": "Row3",
       "hiddenByString": ""
     },
     {
       "id": 28,
-      "x": 6,
-      "y": -2,
+      "x": -9,
+      "y": -1,
       "faceUp": true,
-      "layer": "Column6",
+      "layer": "Row4",
       "hiddenByString": ""
     },
     {
       "id": 29,
-      "x": 6,
+      "x": -6,
       "y": -1,
       "faceUp": true,
-      "layer": "Column6",
+      "layer": "Row4",
       "hiddenByString": ""
     },
     {
       "id": 30,
-      "x": 9,
-      "y": -5,
+      "x": -3,
+      "y": -1,
       "faceUp": true,
-      "layer": "Column7",
+      "layer": "Row4",
       "hiddenByString": ""
     },
     {
       "id": 31,
-      "x": 9,
-      "y": -4,
+      "x": 0,
+      "y": -1,
       "faceUp": true,
-      "layer": "Column7",
+      "layer": "Row4",
       "hiddenByString": ""
     },
     {
       "id": 32,
-      "x": 9,
-      "y": -3,
+      "x": 3,
+      "y": -1,
       "faceUp": true,
-      "layer": "Column7",
+      "layer": "Row4",
       "hiddenByString": ""
     },
     {
       "id": 33,
-      "x": 9,
-      "y": -2,
+      "x": 6,
+      "y": -1,
       "faceUp": true,
-      "layer": "Column7",
+      "layer": "Row4",
       "hiddenByString": ""
     },
     {
@@ -281,7 +281,7 @@
       "x": 9,
       "y": -1,
       "faceUp": true,
-      "layer": "Column7",
+      "layer": "Row4",
       "hiddenByString": ""
     }
   ],
@@ -296,5 +296,10 @@
     "y": 4,
     "layer": "Discard",
     "xStagger": 0.3
-  }
+  },
+  "targetPile": {
+  "x": 0,
+  "y": 4,
+  "layer": "Target"
+}
 }
