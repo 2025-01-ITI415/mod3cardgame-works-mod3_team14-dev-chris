@@ -278,6 +278,11 @@ MonoBehaviour:
       y: 0
       layer: 
       xStagger: 0
+    targetPile:
+      x: 0
+      y: 0
+      layer: 
+      xStagger: 0
 --- !u!114 &519420036
 MonoBehaviour:
   m_ObjectHideFlags: 0
