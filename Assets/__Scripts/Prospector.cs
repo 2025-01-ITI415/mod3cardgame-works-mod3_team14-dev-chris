@@ -202,6 +202,7 @@ public class Prospector : MonoBehaviour
         if (mine.Count == 0)
         {
             Debug.Log("You Win!");
+            SceneManager.LoadScene(0);
             return;
         }
 
@@ -218,6 +219,7 @@ public class Prospector : MonoBehaviour
             }
             if (!hasMove)
                 Debug.Log("Game Over - No Moves Left");
+                SceneManager.LoadScene(0);
         }
     }
 
