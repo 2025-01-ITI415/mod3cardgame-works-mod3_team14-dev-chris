@@ -292,7 +292,7 @@
     "xStagger": 0.15
   },
   "discardPile": {
-    "x": 6,
+    "x": 0,
     "y": 4,
     "layer": "Discard",
     "xStagger": 0.3
