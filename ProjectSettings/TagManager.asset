@@ -42,26 +42,26 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Row0
-    uniqueID: 2856279151
+    uniqueID: 216439847
     locked: 0
   - name: Row1
-    uniqueID: 3270514637
+    uniqueID: 515009561
     locked: 0
   - name: Row2
-    uniqueID: 188962653
+    uniqueID: 2927532187
     locked: 0
   - name: Row3
-    uniqueID: 2400228343
+    uniqueID: 2185753917
     locked: 0
   - name: Row4
-    uniqueID: 3035965217
-    locked: 0
-  - name: Discard
-    uniqueID: 601687799
+    uniqueID: 927928481
     locked: 0
   - name: Draw
-    uniqueID: 870830593
+    uniqueID: 1988124489
+    locked: 0
+  - name: Discard
+    uniqueID: 2184891423
     locked: 0
   - name: Target
-    uniqueID: 1004420391
+    uniqueID: 180902897
     locked: 0
